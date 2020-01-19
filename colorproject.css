@@ -1,9 +1,22 @@
 body{
 	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat";
 }
 
 h1{
+	text-align: center;
 	color : rgb(255 ,255 , 255);
+	background-color: steelblue;
+	margin:0;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding: 20px 0 ;
+}
+
+#colorDisplay{
+	font-size: 200%;
 }
 
 .square{
@@ -34,4 +47,8 @@ span{
 	height: 30px;
 	margin:0 auto;
 	text-align: center;
+}
+
+.selected{
+	background-color: blue;
 }
