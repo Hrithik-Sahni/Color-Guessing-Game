@@ -26,7 +26,7 @@ easyBtn.addEventListener("click" , function(){
 		}
 	}
 
-})
+});
 
 hardBtn.addEventListener("click" , function(){
 	hardBtn.classList.add("selected")
@@ -50,6 +50,9 @@ buttonReset.addEventListener("click" , function(){
 	pickedColor = randomPick();
 	//change colorDisplay to match picked Color
 	colorDisplay.textContent = pickedColor;
+
+	this.textContent = "New Colors"
+	messageDisplay.textContent = "";
 	//change the color of the square
 	for(var i = 0; i < squares.length; i++){
 		squares[i].style.backgroundColor = colors[i];
